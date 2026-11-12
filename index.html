@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Projeto educativo sobre acessibilidade, autismo e comunicação inclusiva no ambiente escolar.">
+
+    <title>Semáforo da Acessibilidade</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar" aria-label="Navegação principal">
+            <a href="#inicio" class="logo">
+                🚦 Semáforo da Acessibilidade
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#semaforo">Semáforo</a></li>
+                <li><a href="#comunicacao">Comunicação</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+                <span class="tag">EDUCAÇÃO • RESPEITO • INCLUSÃO</span>
+
+                <h1>
+                    Semáforo da
+                    <span>Acessibilidade</span>
+                </h1>
+
+                <p>
+                    Pequenas atitudes podem transformar a comunicação
+                    e tornar a escola um lugar mais acolhedor para
+                    todas as pessoas.
+                </p>
+
+                <a href="#semaforo" class="btn">
+                    Conheça o semáforo
+                </a>
+            </div>
+
+            <div class="traffic-light" role="img"
+                 aria-label="Ilustração de um semáforo com luzes vermelha, amarela e verde">
+
+                <div class="light red"></div>
+                <div class="light yellow"></div>
+                <div class="light green"></div>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE -->
+        <section class="about">
+            <h2>O que é o Semáforo da Acessibilidade?</h2>
+
+            <p>
+                É uma ferramenta educativa que utiliza as cores
+                do semáforo para ensinar atitudes que ajudam na
+                comunicação e na convivência com pessoas autistas.
+            </p>
+
+            <p>
+                O objetivo é incentivar o respeito às diferenças,
+                a compreensão e a inclusão no ambiente escolar.
+            </p>
+        </section>
+
+        <!-- SEMÁFORO INTERATIVO -->
+        <section id="semaforo" class="section">
+
+            <h2>🚦 Semáforo Interativo</h2>
+
+            <p class="section-description">
+                Clique em uma das luzes para conhecer as orientações.
+            </p>
+
+            <div class="lights-container">
+
+                <button class="light-card red-card"
+                        data-color="red"
+                        aria-label="Vermelho: Pare e reavalie">
+
+                    <span class="circle red"></span>
+                    <h3>Vermelho</h3>
+                    <strong>PARE E REAVALIE</strong>
+
+                </button>
+
+                <button class="light-card yellow-card"
+                        data-color="yellow"
+                        aria-label="Amarelo: Observe e adapte">
+
+                    <span class="circle yellow"></span>
+                    <h3>Amarelo</h3>
+                    <strong>OBSERVE E ADAPTE</strong>
+
+                </button>
+
+                <button class="light-card green-card"
+                        data-color="green"
+                        aria-label="Verde: Comunicação acolhedora">
+
+                    <span class="circle green"></span>
+                    <h3>Verde</h3>
+                    <strong>PODE CONTINUAR</strong>
+
+                </button>
+
+            </div>
+
+            <div id="light-message"
+                 class="message-box"
+                 aria-live="polite"
+                 aria-atomic="true">
+
+                <h3>Escolha uma luz do semáforo!</h3>
+
+                <p>
+                    As orientações aparecerão aqui.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- COMUNICAÇÃO INCLUSIVA -->
+        <section id="comunicacao" class="section communication">
+
+            <h2>Comunicação Inclusiva</h2>
+
+            <p class="section-description">
+                Atitudes simples ajudam a construir uma escola
+                mais respeitosa e acolhedora.
+            </p>
+
+            <div class="tips-grid">
+
+                <article class="tip">
+                    <span>💬</span>
+                    <h3>Fale com clareza</h3>
+                    <p>
+                        Utilize frases simples, objetivas e respeitosas.
+                    </p>
+                </article>
+
+                <article class="tip">
+                    <span>⏳</span>
+                    <h3>Respeite o tempo</h3>
+                    <p>
+                        Dê tempo para a pessoa compreender e responder.
+                    </p>
+                </article>
+
+                <article class="tip">
+                    <span>🖼️</span>
+                    <h3>Use recursos visuais</h3>
+                    <p>
+                        Imagens, textos e exemplos podem facilitar
+                        a compreensão.
+                    </p>
+                </article>
+
+                <article class="tip">
+                    <span>🤝</span>
+                    <h3>Respeite as diferenças</h3>
+                    <p>
+                        Cada pessoa possui suas próprias características
+                        e necessidades.
+                    </p>
+                </article>
+
+                <article class="tip">
+                    <span>👂</span>
+                    <h3>Escute com atenção</h3>
+                    <p>
+                        Respeite diferentes formas de expressão
+                        e comunicação.
+                    </p>
+                </article>
+
+                <article class="tip">
+                    <span>❤️</span>
+                    <h3>Pratique a empatia</h3>
+                    <p>
+                        Acolha sem julgar e ofereça apoio quando necessário.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- QUIZ -->
+        <section id="quiz" class="section quiz-section">
+
+            <h2>🧠 Quiz da Acessibilidade</h2>
+
+            <p class="section-description">
+                Teste seus conhecimentos sobre autismo,
+                respeito e comunicação inclusiva.
+            </p>
+
+            <div class="quiz-box">
+
+                <div id="quiz-content">
+
+                    <p id="question-number"></p>
+
+                    <h3 id="question"></h3>
+
+                    <div id="answers"></div>
+
+                    <p id="feedback" aria-live="polite"></p>
+
+                    <button id="next-button" class="btn"
+                            disabled>
+                        Próxima pergunta
+                    </button>
+
+                </div>
+
+                <div id="quiz-result" hidden>
+
+                    <h3>Quiz concluído! 🎉</h3>
+
+                    <p id="score"></p>
+
+                    <button id="restart-button" class="btn">
+                        Refazer quiz
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONCLUSÃO -->
+        <section id="conclusao" class="conclusion">
+
+            <h2>Respeito é o caminho para a inclusão!</h2>
+
+            <p>
+                A acessibilidade começa com pequenas atitudes.
+                Respeitar o tempo, a comunicação e as necessidades
+                de cada pessoa é essencial para construir uma
+                sociedade mais justa e acolhedora.
+            </p>
+
+            <strong>
+                Toda pessoa merece respeito, compreensão e inclusão!
+            </strong>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <h3>Semáforo da Acessibilidade</h3>
+
+        <p>
+            Colégio Estadual Benedicto João Cordeiro
+        </p>
+
+        <p>
+            Professor: Reinaldo Ferreira Junior
+        </p>
+
+        <p>
+            Disciplina: Programação Front-End I
+        </p>
+
+        <p>
+            Turma: 2º ano do Curso Técnico em
+            Desenvolvimento de Sistemas
+        </p>
+
+        <p class="copyright">
+            Projeto educativo • 2026
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
